@@ -1,0 +1,9 @@
+spring:
+  r2dbc:
+    username: postgres
+    password: 134652
+    url: r2dbc:postgresql://localhost:5432/air_map
+  flyway:
+    url: jdbc:postgresql://localhost:5432/air_map
+    password: 134652
+    user: postgres
